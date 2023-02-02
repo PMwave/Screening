@@ -1,5 +1,7 @@
 import numpy as np
 import streamlit as st
+from matplotlib import pyplot as plt
+import seaborn as sns
 
 with open('X_embedded.npy', 'rb') as f:
     X_embedded = np.load(f)
@@ -8,8 +10,6 @@ with open('y_pred.npy', 'rb') as f:
     y_pred = np.load(f)
     
 
-from matplotlib import pyplot as plt
-import seaborn as sns
 
 # sns settings
 sns.set(rc={'figure.figsize':(13,9)})
