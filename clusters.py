@@ -7,7 +7,7 @@ with open('X_embedded.npy', 'rb') as f:
 with open('y_pred.npy', 'rb') as f:
     y_pred = np.load(f)
     
-%matplotlib inline
+
 from matplotlib import pyplot as plt
 import seaborn as sns
 
