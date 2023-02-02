@@ -3,6 +3,10 @@ import streamlit as st
 from matplotlib import pyplot as plt
 import seaborn as sns
 
+matplotlib
+seaborn
+numpy
+
 with open('X_embedded.npy', 'rb') as f:
     X_embedded = np.load(f)
 
